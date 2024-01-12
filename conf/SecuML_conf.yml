@@ -1,0 +1,19 @@
+import os
+import yaml
+
+def create_secuml_conf_file(file_path):
+    config = {
+        'input_data_dir': '<directory containing the input datasets>',
+        'output_data_dir': '<directory where the results of the experiments are stored>',
+        'db_uri': '<URI of the database>',
+        'logger_level': 'INFO',
+        'logger_output': 'sys.stderr',
+        'host': 'localhost',
+        'port': 8080
+    }
+
+    with open(file_path, 'w') as file:
+        yaml.dump(config, file)
+
+# Create the SecuML_conf.yml file in the conf directory
+create_secuml_conf_file('conf/SecuML_conf.yml')
