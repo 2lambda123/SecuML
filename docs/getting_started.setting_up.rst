@@ -1,6 +1,20 @@
 Setting up SecuML
 =================
 
+.. _troubleshooting:
+
+Troubleshooting
+---------------
+
+SecuML may encounter various issues during setup and configuration. For detailed troubleshooting instructions, refer to
+:doc:`troubleshooting </docs/getting_started.troubleshooting>`.
+
+Troubleshooting
+---------------
+
+SecuML may encounter various issues during setup and configuration. For detailed troubleshooting instructions, refer to
+:doc:`troubleshooting </docs/getting_started.troubleshooting>`.
+
 
 SecuML comes with a web user interface to display the results of the analysis
 and interact with the Machine Learning models.
@@ -10,6 +24,12 @@ Once they are computed, the results can be displayed in the web user interface.
 
 Database
 --------
+
+Troubleshooting
+---------------
+
+SecuML may encounter various issues during setup and configuration. For detailed troubleshooting instructions, refer to
+:doc:`troubleshooting </docs/getting_started.troubleshooting>`.
 SecuML requires an access to a database. MySQL and PostgreSQL are supported.
 The user must have the following permissions:
 ``SELECT``, ``INSERT``, ``UPDATE``, ``DELETE``, ``CREATE TEMPORARY TABLES``.
@@ -32,6 +52,8 @@ The URI of the database must be specified in SecuML
 
 
 Installation
+
+For detailed troubleshooting instructions, refer to :doc:`troubleshooting </docs/getting_started.troubleshooting>`.
 ------------
 
 Requirements
