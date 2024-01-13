@@ -6,6 +6,11 @@ Experiments
 .. _exp-params:
 
 Running Experiments
+
+Troubleshooting
+--------------
+
+For troubleshooting instructions, refer to the :doc:`troubleshooting </docs/getting_started.troubleshooting>` file.
 -------------------
 The experiments must be run from the command line.
 Each type of experiment has its own executable
@@ -64,6 +69,11 @@ the URL provided.
 
 Types of Experiments Available
 ------------------------------
+
+Troubleshooting
+--------------
+
+For troubleshooting instructions, refer to the :doc:`troubleshooting </docs/getting_started.troubleshooting>` file.
 * :ref:`DIADEM: Training and Diagnosing Detection Model <DIADEM>`
 * :ref:`ILAB: Annotating a Dataset with a Reduced Workload <ILAB>`
 * :ref:`Exploring a Dataset Interactively with Rare Category Detection <RCD>`
